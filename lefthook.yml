@@ -1,0 +1,8 @@
+pre-commit:
+  parallel: true
+  commands:
+    typecheck:
+      run: pnpm typecheck
+    format:
+      glob: "*.{ts,tsx,js,jsx,json,md}"
+      run: pnpm exec prettier --check {staged_files}
