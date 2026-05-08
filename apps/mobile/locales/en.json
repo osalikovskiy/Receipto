@@ -1,0 +1,316 @@
+{
+  "common": {
+    "back": "Back",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "auth": {
+    "subtitle": "Your rights. Your money back.",
+    "emailPlaceholder": "Email address",
+    "sendCode": "Send code",
+    "verifyCode": "Verify code",
+    "checkEmail": "Enter the code from your email",
+    "codeInstruction": "We sent a 6-digit code to {{email}}.",
+    "changeEmail": "Use a different email"
+  },
+  "tabs": {
+    "receipts": "Receipts",
+    "subscriptions": "Subscriptions",
+    "uebersicht": "Overview",
+    "abos": "Subscriptions",
+    "assistant": "AI Assistant",
+    "profil": "Profile",
+    "settings": "Settings"
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "next": "Next",
+    "start": "Get started",
+    "scan": {
+      "title": "Scan receipts",
+      "body": "Snap a photo of your receipt. Receipto auto-extracts merchant, date, and products."
+    },
+    "watch": {
+      "title": "Track warranties",
+      "body": "We remind you before your statutory warranty and burden-of-proof window expire."
+    },
+    "reclaim": {
+      "title": "Get your money back",
+      "body": "When something breaks, we draft a legally sound complaint letter for you."
+    }
+  },
+  "receipts": {
+    "emptyTitle": "No receipts yet",
+    "emptySubtitle": "Tap + to scan your first receipt.",
+    "addReceipt": "Add receipt",
+    "processing": "Processing…",
+    "unknown": "Unknown",
+    "failed": "Failed",
+    "searchPlaceholder": "Search merchant…",
+    "sort": {
+      "date_desc": "Newest",
+      "date_asc": "Oldest",
+      "amount_desc": "Highest"
+    }
+  },
+  "receipt": {
+    "notFound": "Receipt not found",
+    "detail": {
+      "products": "Products",
+      "noProducts": "No products detected. Please rescan.",
+      "processing": "Receipt is still being processed…"
+    }
+  },
+  "product": {
+    "notFound": "Product not found",
+    "serial": "Serial number",
+    "beruflich": "Work-related",
+    "beruflichHint": "Mark as Werbungskosten for your tax return",
+    "boughtOn": "Bought on {{date}}",
+    "rightsTitle": "Your rights under § 437 BGB",
+    "rights": {
+      "nacherfuellung": "Repair or replacement",
+      "nacherfuellungBody": "You are primarily entitled to repair or a new, defect-free delivery.",
+      "ruecktritt": "Withdrawal & price reduction",
+      "ruecktrittBody": "If repair fails twice, you can withdraw from the contract or reduce the price.",
+      "schadensersatz": "Damages",
+      "schadensersatzBody": "If the seller is at fault, you may claim additional compensation."
+    },
+    "fileClaim": "File complaint",
+    "comingSoon": "Coming soon",
+    "categories": {
+      "electronics": "Electronics",
+      "clothing": "Clothing",
+      "furniture": "Furniture",
+      "food": "Food",
+      "household": "Household",
+      "other": "Other"
+    },
+    "warranty": {
+      "beweislastumkehr": "Reverse burden of proof",
+      "gewaehrleistung": "Statutory warranty",
+      "gefahrenzone": "Danger zone",
+      "timeline": "Warranty Timeline",
+      "month1to12": "Month 1–12",
+      "month13to24": "Month 13–24",
+      "endsOn": "Ends on {{date}}",
+      "expired": "Expired",
+      "daysRemaining_one": "{{count}} day left",
+      "daysRemaining_other": "{{count}} days left",
+      "beweislastumkehrIn_one": "Reverse burden of proof ends in {{count}} day",
+      "beweislastumkehrIn_other": "Reverse burden of proof ends in {{count}} days",
+      "beweislastumkehrExpired": "Reverse burden of proof expired"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "subtitle": "Used automatically in your complaint letters.",
+    "email": "Email",
+    "fullName": "Full name",
+    "fullNamePlaceholder": "First Last",
+    "address": "Address",
+    "addressPlaceholder": "Street and number\nPostal code City",
+    "save": "Save"
+  },
+  "dashboard": {
+    "appName": "Receipto",
+    "potentialLabel": "Potential savings",
+    "potentialSub_one": "{{count}} zombie subscription detected",
+    "potentialSub_other": "{{count}} zombie subscriptions detected",
+    "allGood": "All good 👍",
+    "allGoodSub": "No unused subscriptions, no expiring warranties.",
+    "aboCheck": "Subscription Check",
+    "zombieFound_one": "{{count}} unused subscription detected",
+    "zombieFound_other": "{{count}} unused subscriptions detected",
+    "zombieSavings": "Save up to {{amount}} / month",
+    "cancelNow": "Cancel now →",
+    "noZombies_one": "{{count}} subscription active — all good",
+    "noZombies_other": "{{count}} subscriptions active — all good",
+    "activeWarranties": "Active Warranties",
+    "seeAll": "See all",
+    "emptyTitle": "No data yet",
+    "emptySub": "Scan your first receipt or add a subscription."
+  },
+  "assistant": {
+    "comingSoonTitle": "AI Assistant coming soon",
+    "comingSoonBody": "Ask questions about your purchases, warranties, and subscriptions — in natural language.\n\n\"When did I buy my AirPods?\"\n\"Which subscriptions haven't I used in 3 months?\""
+  },
+  "profil": {
+    "editProfile": "Edit profile",
+    "memberSince": "Receipto member"
+  },
+  "subscriptions": {
+    "emptyTitle": "No subscriptions yet",
+    "emptySubtitle": "Tap + to add your first subscription.",
+    "add": "Add subscription",
+    "zombie": "Zombie",
+    "active": "Active",
+    "lastUsed": "Last used: {{date}}",
+    "lastUsedDays_one": "Last used {{count}} day ago",
+    "lastUsedDays_other": "Last used {{count}} days ago",
+    "zombieDays_one": "Inactive / Zombie ({{count}} day)",
+    "zombieDays_other": "Inactive / Zombie ({{count}} days)",
+    "potentialSavings": "Potential savings",
+    "zombieFoundCount_one": "{{count}} inactive subscription identified",
+    "zombieFoundCount_other": "{{count}} inactive subscriptions identified",
+    "quickCancel": "Cancel with one click",
+    "quickCancelTitle": "Start cancellation?",
+    "quickCancelBody": "Receipto will draft a legally sound cancellation letter for {{name}}.",
+    "generateLetter": "Generate letter",
+    "notFound": "Subscription not found",
+    "markUsedToday": "Mark as used today",
+    "delete": "Delete subscription",
+    "deleteConfirmTitle": "Delete subscription?",
+    "deleteConfirmBody": "The subscription will be permanently removed from Receipto. The actual subscription stays active.",
+    "cancel": "Cancel subscription",
+    "cycle": {
+      "monthly": "month",
+      "yearly": "year"
+    },
+    "zombieTitle": "Zombie subscription detected",
+    "zombieBody": "This subscription hasn't been used in more than 60 days. Is it still worth it?",
+    "new": {
+      "title": "Add subscription",
+      "serviceName": "Service",
+      "amount": "Amount (€)",
+      "billingCycle": "Billing cycle",
+      "lastCharge": "Last charge (YYYY-MM-DD)",
+      "hasCancellationButton": "Cancellation button present",
+      "hasCancellationButtonHint": "Does the website have a direct cancellation option per §312k BGB?",
+      "noticeDays": "Notice period (days)",
+      "save": "Save"
+    },
+    "detail": {
+      "lastCharge": "Last charge",
+      "lastUsed": "Last used",
+      "never": "Never",
+      "cancellationButton": "Cancellation button",
+      "present": "Present",
+      "absent": "Absent",
+      "noticeDays": "Notice period",
+      "noticeDaysValue_one": "{{count}} day",
+      "noticeDaysValue_other": "{{count}} days"
+    }
+  },
+  "cancellation": {
+    "title": "Cancel subscription",
+    "whatWillHappen": "What happens next?",
+    "whatWillHappenBody": "Receipto drafts a legally sound cancellation letter under §312k BGB (extraordinary cancellation if no cancellation button is present). You can review, edit, and send it by email.",
+    "customerNumber": "Customer number (optional)",
+    "customerNumberPlaceholder": "e.g. 1234567890",
+    "generate": "Generate letter",
+    "generating": "Generating cancellation letter…",
+    "generatingHint": "This usually takes a few seconds."
+  },
+  "claim": {
+    "consent": {
+      "title": "Important notice",
+      "body": "Receipto generates letters based on your input and current law. Please review the letter before sending. Receipto is not a substitute for a lawyer.",
+      "confirm": "Understood"
+    },
+    "new": {
+      "title": "File complaint",
+      "defectLabel": "What's wrong?",
+      "defectPlaceholder": "Describe the defect as precisely as possible. Example: \"The battery drains within a few hours even though it's fully charged.\"",
+      "minLength": "At least {{count}} characters",
+      "generate": "Generate letter"
+    },
+    "preview": {
+      "title": "Complaint letter",
+      "product": "Product",
+      "subscription": "Subscription",
+      "defect": "Defect description",
+      "letter": "Letter",
+      "generating": "Generating letter…",
+      "edit": "Edit",
+      "cancel": "Cancel",
+      "save": "Save",
+      "send": "Send by email",
+      "cantSendYet": "Letter still being generated…",
+      "alreadySent": "Already sent",
+      "mailUnavailable": "No mail app configured on this device."
+    }
+  },
+  "notifications": {
+    "bannerTitle": "Enable reminders",
+    "bannerSubtitle": "Never miss a warranty deadline.",
+    "permissionDenied": "Permission was denied.",
+    "settingsTitle": "Enable reminders in Settings",
+    "openSettings": "Tap here to open system settings."
+  },
+  "camera": {
+    "permissionTitle": "Camera access required",
+    "permissionBody": "Receipto needs access to your camera to scan receipts.",
+    "grantPermission": "Grant access",
+    "capture": "Capture",
+    "cancel": "Cancel",
+    "retake": "Retake",
+    "useThis": "Use this",
+    "uploadFailed": "Upload failed. Please try again."
+  },
+  "paywall": {
+    "title": "Receipto Plus",
+    "subtitle": "Unlock unlimited receipts and all features.",
+    "priceMonthly": "€4.99 / month",
+    "cancelAnytime": "Cancel anytime",
+    "subscribe": "Subscribe",
+    "restore": "Restore purchases",
+    "perMonth": "month",
+    "perYear": "year",
+    "savePercent": "Save 33%",
+    "purchaseError": "Purchase failed. Please try again.",
+    "restoreNone": "No active subscription found.",
+    "features": {
+      "unlimited": {
+        "title": "Unlimited receipts",
+        "body": "No more 10-receipt limit."
+      },
+      "priority": {
+        "title": "Priority processing",
+        "body": "Faster OCR and letter generation."
+      },
+      "support": {
+        "title": "Email support",
+        "body": "Reply within 24 hours."
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "Profile",
+    "language": "Language",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint",
+    "signOut": "Sign out",
+    "cancel": "Cancel",
+    "data": "My data",
+    "steuerExport": "Export Werbungskosten {{year}}",
+    "steuerExportFailed": "Tax export failed.",
+    "exportData": "Export data",
+    "exportFailed": "Export failed.",
+    "deleteAccount": "Delete account",
+    "deleteConfirmTitle": "Really delete account?",
+    "deleteConfirmBody": "All your receipts, complaints, and profile data will be permanently deleted.",
+    "deleteConfirm": "Delete permanently",
+    "deleteFailed": "Delete failed. Please try again later.",
+    "locales": {
+      "de": "Deutsch",
+      "en": "English"
+    }
+  },
+  "network": {
+    "offline": "No internet connection"
+  },
+  "legal": {
+    "placeholderNotice": "⚠️ Placeholder text. Will be reviewed by a lawyer before launch.",
+    "privacy": {
+      "title": "Privacy Policy",
+      "body": "Receipto is the data controller under the GDPR.\n\nWe process your personal data only to provide the Receipto service: receipt recognition, warranty deadline tracking, and generation of legally compliant complaint letters.\n\nServer location: Frankfurt am Main (Supabase, eu-central-1).\n\nContact: privacy@receipto.de\n\n[Full text will be provided by a lawyer before launch.]"
+    },
+    "imprint": {
+      "title": "Imprint",
+      "body": "Information per § 5 TMG\n\nReceipto\nOwner: [Name to be added]\n[Street and number]\n[Postal code City]\nGermany\n\nContact:\nEmail: hello@receipto.de\n\nVAT ID: [to be added]\n\n[Full imprint will be provided by a lawyer before launch.]"
+    }
+  }
+}
