@@ -1,0 +1,316 @@
+{
+  "common": {
+    "back": "Zurück",
+    "cancel": "Abbrechen",
+    "delete": "Löschen"
+  },
+  "auth": {
+    "subtitle": "Deine Rechte. Dein Geld zurück.",
+    "emailPlaceholder": "E-Mail-Adresse",
+    "sendCode": "Code senden",
+    "verifyCode": "Code bestätigen",
+    "checkEmail": "Code aus E-Mail eingeben",
+    "codeInstruction": "Wir haben einen 6-stelligen Code an {{email}} gesendet.",
+    "changeEmail": "Andere E-Mail verwenden"
+  },
+  "tabs": {
+    "receipts": "Kassenbons",
+    "subscriptions": "Abos",
+    "uebersicht": "Übersicht",
+    "abos": "Abos",
+    "assistant": "KI-Assistent",
+    "profil": "Profil",
+    "settings": "Einstellungen"
+  },
+  "onboarding": {
+    "skip": "Überspringen",
+    "next": "Weiter",
+    "start": "Los geht's",
+    "scan": {
+      "title": "Kassenbons scannen",
+      "body": "Mache ein Foto deines Kassenbons. Receipto erkennt Händler, Datum und Produkte automatisch."
+    },
+    "watch": {
+      "title": "Garantie im Blick",
+      "body": "Wir erinnern dich vor Ablauf der Beweislastumkehr und der Gewährleistung."
+    },
+    "reclaim": {
+      "title": "Geld zurück",
+      "body": "Bei Mängeln erstellen wir dir ein rechtssicheres Reklamationsschreiben."
+    }
+  },
+  "receipts": {
+    "emptyTitle": "Noch keine Kassenbons",
+    "emptySubtitle": "Tippe auf + um deinen ersten Kassenbon zu scannen.",
+    "addReceipt": "Kassenbon hinzufügen",
+    "processing": "Wird verarbeitet…",
+    "unknown": "Unbekannt",
+    "failed": "Fehler",
+    "searchPlaceholder": "Händler suchen…",
+    "sort": {
+      "date_desc": "Neueste",
+      "date_asc": "Älteste",
+      "amount_desc": "Teuerste"
+    }
+  },
+  "receipt": {
+    "notFound": "Kassenbon nicht gefunden",
+    "detail": {
+      "products": "Produkte",
+      "noProducts": "Keine Produkte erkannt. Bitte erneut scannen.",
+      "processing": "Kassenbon wird noch verarbeitet…"
+    }
+  },
+  "product": {
+    "notFound": "Produkt nicht gefunden",
+    "serial": "Seriennummer",
+    "beruflich": "Beruflich genutzt",
+    "beruflichHint": "Als Werbungskosten für die Steuererklärung markieren",
+    "boughtOn": "Gekauft am {{date}}",
+    "rightsTitle": "Deine Rechte nach § 437 BGB",
+    "rights": {
+      "nacherfuellung": "Nacherfüllung",
+      "nacherfuellungBody": "Du hast primär das Recht auf Reparatur oder eine neue, mangelfreie Lieferung.",
+      "ruecktritt": "Rücktritt & Minderung",
+      "ruecktrittBody": "Falls die Reparatur zweimal fehlschlägt, kannst du vom Vertrag zurücktreten oder den Preis mindern.",
+      "schadensersatz": "Schadensersatz",
+      "schadensersatzBody": "Bei Verschulden des Verkäufers können zusätzliche Kosten geltend gemacht werden."
+    },
+    "fileClaim": "Reklamation einreichen",
+    "comingSoon": "Bald verfügbar",
+    "categories": {
+      "electronics": "Elektronik",
+      "clothing": "Kleidung",
+      "furniture": "Möbel",
+      "food": "Lebensmittel",
+      "household": "Haushalt",
+      "other": "Sonstiges"
+    },
+    "warranty": {
+      "beweislastumkehr": "Beweislastumkehr",
+      "gewaehrleistung": "Gewährleistung",
+      "gefahrenzone": "Gefahrenzone",
+      "timeline": "Gewährleistungs-Timeline",
+      "month1to12": "Monat 1–12",
+      "month13to24": "Monat 13–24",
+      "endsOn": "Endet am {{date}}",
+      "expired": "Abgelaufen",
+      "daysRemaining_one": "Noch {{count}} Tag",
+      "daysRemaining_other": "Noch {{count}} Tage",
+      "beweislastumkehrIn_one": "Beweislastumkehr endet in {{count}} Tag",
+      "beweislastumkehrIn_other": "Beweislastumkehr endet in {{count}} Tagen",
+      "beweislastumkehrExpired": "Beweislastumkehr abgelaufen"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "subtitle": "Wird automatisch in deine Reklamationsschreiben eingefügt.",
+    "email": "E-Mail",
+    "fullName": "Vollständiger Name",
+    "fullNamePlaceholder": "Vorname Nachname",
+    "address": "Adresse",
+    "addressPlaceholder": "Straße und Hausnummer\nPostleitzahl Ort",
+    "save": "Speichern"
+  },
+  "dashboard": {
+    "appName": "Receipto",
+    "potentialLabel": "Potenzielles Guthaben",
+    "potentialSub_one": "{{count}} Zombie-Abo erkannt",
+    "potentialSub_other": "{{count}} Zombie-Abos erkannt",
+    "allGood": "Alles im Griff 👍",
+    "allGoodSub": "Keine ungenutzten Abos, keine ablaufenden Garantien.",
+    "aboCheck": "Abo-Check",
+    "zombieFound_one": "{{count}} ungenutztes Abo erkannt",
+    "zombieFound_other": "{{count}} ungenutzte Abos erkannt",
+    "zombieSavings": "Einsparung von {{amount}} / Monat möglich",
+    "cancelNow": "Jetzt kündigen →",
+    "noZombies_one": "{{count}} Abo aktiv – alles OK",
+    "noZombies_other": "{{count}} Abos aktiv – alles OK",
+    "activeWarranties": "Aktive Gewährleistung",
+    "seeAll": "Alle ansehen",
+    "emptyTitle": "Noch keine Daten",
+    "emptySub": "Scanne deinen ersten Kassenbon oder füge ein Abo hinzu."
+  },
+  "assistant": {
+    "comingSoonTitle": "KI-Assistent kommt bald",
+    "comingSoonBody": "Stelle Fragen zu deinen Käufen, Garantien und Abos - auf Deutsch, natürlich.\n\n\"Wann habe ich meine AirPods gekauft?\"\n\"Welche Abos habe ich seit 3 Monaten nicht genutzt?\""
+  },
+  "profil": {
+    "editProfile": "Profil bearbeiten",
+    "memberSince": "Receipto-Mitglied"
+  },
+  "subscriptions": {
+    "emptyTitle": "Noch keine Abonnements",
+    "emptySubtitle": "Tippe auf +, um dein erstes Abo hinzuzufügen.",
+    "add": "Abonnement hinzufügen",
+    "zombie": "Zombie",
+    "active": "Aktiv",
+    "lastUsed": "Zuletzt genutzt: {{date}}",
+    "lastUsedDays_one": "Zuletzt vor {{count}} Tag",
+    "lastUsedDays_other": "Zuletzt vor {{count}} Tagen",
+    "zombieDays_one": "Inaktiv / Zombie ({{count}} Tag)",
+    "zombieDays_other": "Inaktiv / Zombie ({{count}} Tage)",
+    "potentialSavings": "Potenzielle Ersparnis",
+    "zombieFoundCount_one": "{{count}} inaktives Abo identifiziert",
+    "zombieFoundCount_other": "{{count}} inaktive Abos identifiziert",
+    "quickCancel": "Kündigung mit einem Klick",
+    "quickCancelTitle": "Kündigung einleiten?",
+    "quickCancelBody": "Receipto erstellt ein rechtssicheres Kündigungsschreiben für {{name}}.",
+    "generateLetter": "Brief erstellen",
+    "notFound": "Abonnement nicht gefunden",
+    "markUsedToday": "Heute genutzt",
+    "delete": "Abonnement löschen",
+    "deleteConfirmTitle": "Abonnement löschen?",
+    "deleteConfirmBody": "Das Abonnement wird dauerhaft aus Receipto entfernt. Das Abo selbst bleibt aktiv.",
+    "cancel": "Kündigen",
+    "cycle": {
+      "monthly": "Monat",
+      "yearly": "Jahr"
+    },
+    "zombieTitle": "Zombie-Abo erkannt",
+    "zombieBody": "Dieses Abo wurde seit mehr als 60 Tagen nicht genutzt. Lohnt es sich noch?",
+    "new": {
+      "title": "Abo hinzufügen",
+      "serviceName": "Dienst",
+      "amount": "Betrag (€)",
+      "billingCycle": "Abrechnungszeitraum",
+      "lastCharge": "Letzte Abbuchung (JJJJ-MM-TT)",
+      "hasCancellationButton": "Kündigen-Schaltfläche vorhanden",
+      "hasCancellationButtonHint": "Hat die Website eine direkte Kündigungsoption gemäß §312k BGB?",
+      "noticeDays": "Kündigungsfrist (Tage)",
+      "save": "Speichern"
+    },
+    "detail": {
+      "lastCharge": "Letzte Abbuchung",
+      "lastUsed": "Zuletzt genutzt",
+      "never": "Nie",
+      "cancellationButton": "Kündigen-Schaltfläche",
+      "present": "Vorhanden",
+      "absent": "Nicht vorhanden",
+      "noticeDays": "Kündigungsfrist",
+      "noticeDaysValue_one": "{{count}} Tag",
+      "noticeDaysValue_other": "{{count}} Tage"
+    }
+  },
+  "cancellation": {
+    "title": "Kündigung einleiten",
+    "whatWillHappen": "Was passiert als Nächstes?",
+    "whatWillHappenBody": "Receipto erstellt ein rechtssicheres Kündigungsschreiben nach §312k BGB (bei fehlendem Kündigungsbutton: außerordentliche Kündigung). Du kannst den Brief prüfen, bearbeiten und per E-Mail versenden.",
+    "customerNumber": "Kundennummer (optional)",
+    "customerNumberPlaceholder": "z. B. 1234567890",
+    "generate": "Brief generieren",
+    "generating": "Kündigungsschreiben wird erstellt…",
+    "generatingHint": "Das dauert in der Regel wenige Sekunden."
+  },
+  "claim": {
+    "consent": {
+      "title": "Wichtiger Hinweis",
+      "body": "Receipto erstellt Schreiben auf Basis Ihrer Eingaben und der aktuellen Rechtslage. Bitte prüfen Sie das Schreiben vor dem Versand. Receipto ersetzt keinen Anwalt.",
+      "confirm": "Verstanden"
+    },
+    "new": {
+      "title": "Reklamation einreichen",
+      "defectLabel": "Was ist das Problem?",
+      "defectPlaceholder": "Beschreibe den Mangel so präzise wie möglich. Beispiel: „Der Akku entlädt sich innerhalb weniger Stunden, obwohl voll geladen.\"",
+      "minLength": "Mindestens {{count}} Zeichen",
+      "generate": "Brief generieren"
+    },
+    "preview": {
+      "title": "Reklamationsschreiben",
+      "product": "Produkt",
+      "subscription": "Abonnement",
+      "defect": "Beschreibung des Mangels",
+      "letter": "Schreiben",
+      "generating": "Brief wird generiert…",
+      "edit": "Bearbeiten",
+      "cancel": "Abbrechen",
+      "save": "Speichern",
+      "send": "Per E-Mail senden",
+      "cantSendYet": "Brief wird noch generiert…",
+      "alreadySent": "Bereits gesendet",
+      "mailUnavailable": "Keine E-Mail-App auf diesem Gerät konfiguriert."
+    }
+  },
+  "notifications": {
+    "bannerTitle": "Erinnerungen aktivieren",
+    "bannerSubtitle": "Verpasse keine Garantiefrist mehr.",
+    "permissionDenied": "Berechtigung wurde abgelehnt.",
+    "settingsTitle": "Erinnerungen in Einstellungen aktivieren",
+    "openSettings": "Tippe hier, um die Systemeinstellungen zu öffnen."
+  },
+  "camera": {
+    "permissionTitle": "Kamerazugriff erforderlich",
+    "permissionBody": "Receipto braucht Zugriff auf deine Kamera, um Kassenbons zu scannen.",
+    "grantPermission": "Zugriff erlauben",
+    "capture": "Aufnehmen",
+    "cancel": "Abbrechen",
+    "retake": "Wiederholen",
+    "useThis": "Verwenden",
+    "uploadFailed": "Upload fehlgeschlagen. Bitte erneut versuchen."
+  },
+  "paywall": {
+    "title": "Receipto Plus",
+    "subtitle": "Schalte unbegrenzte Kassenbons und alle Funktionen frei.",
+    "priceMonthly": "4,99 € / Monat",
+    "cancelAnytime": "Jederzeit kündbar",
+    "subscribe": "Abonnieren",
+    "restore": "Kauf wiederherstellen",
+    "perMonth": "Monat",
+    "perYear": "Jahr",
+    "savePercent": "33 % sparen",
+    "purchaseError": "Kauf fehlgeschlagen. Bitte erneut versuchen.",
+    "restoreNone": "Kein aktives Abonnement gefunden.",
+    "features": {
+      "unlimited": {
+        "title": "Unbegrenzte Kassenbons",
+        "body": "Kein 10-Belege-Limit mehr."
+      },
+      "priority": {
+        "title": "Priorisierte Verarbeitung",
+        "body": "Schnellere OCR und Briefgenerierung."
+      },
+      "support": {
+        "title": "E-Mail-Support",
+        "body": "Antwort innerhalb von 24 Stunden."
+      }
+    }
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "profile": "Profil",
+    "language": "Sprache",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutzerklärung",
+    "imprint": "Impressum",
+    "signOut": "Abmelden",
+    "cancel": "Abbrechen",
+    "data": "Meine Daten",
+    "steuerExport": "Werbungskosten {{year}} exportieren",
+    "steuerExportFailed": "Steuer-Export fehlgeschlagen.",
+    "exportData": "Daten exportieren",
+    "exportFailed": "Export fehlgeschlagen.",
+    "deleteAccount": "Konto löschen",
+    "deleteConfirmTitle": "Konto wirklich löschen?",
+    "deleteConfirmBody": "Alle deine Kassenbons, Reklamationen und Profildaten werden unwiderruflich gelöscht.",
+    "deleteConfirm": "Endgültig löschen",
+    "deleteFailed": "Löschen fehlgeschlagen. Bitte später erneut versuchen.",
+    "locales": {
+      "de": "Deutsch",
+      "en": "English"
+    }
+  },
+  "network": {
+    "offline": "Keine Internetverbindung"
+  },
+  "legal": {
+    "placeholderNotice": "⚠️ Platzhaltertext. Wird vor dem Launch durch einen Anwalt geprüft.",
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "body": "Verantwortlicher im Sinne der DSGVO ist Receipto.\n\nWir verarbeiten deine personenbezogenen Daten ausschließlich, um dir den Receipto-Dienst zur Verfügung zu stellen: Erkennung von Kassenbons, Verwaltung von Garantiefristen, Erstellung rechtskonformer Reklamationsschreiben.\n\nServerstandort: Frankfurt am Main (Supabase, eu-central-1).\n\nKontakt: privacy@receipto.de\n\n[Vollständiger Text wird vor dem Launch durch einen Anwalt erstellt.]"
+    },
+    "imprint": {
+      "title": "Impressum",
+      "body": "Angaben gemäß § 5 TMG\n\nReceipto\nInhaber: [Name wird ergänzt]\n[Straße und Hausnummer]\n[PLZ Ort]\nDeutschland\n\nKontakt:\nE-Mail: hello@receipto.de\n\nUmsatzsteuer-ID: [wird ergänzt]\n\n[Vollständiges Impressum wird vor dem Launch durch einen Anwalt erstellt.]"
+    }
+  }
+}
