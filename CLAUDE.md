@@ -36,7 +36,7 @@ When starting a new conversation or task, read in this order:
    - Database / API / flows → `docs/03-architecture.md`
    - **ANYTHING legal-related** → `docs/04-legal-compliance.md` (mandatory)
    - Code style / patterns → `docs/05-coding-standards.md`
-   - AI prompts / Claude/GPT calls → `docs/06-ai-prompts.md`
+   - AI prompts / OpenAI calls → `docs/06-ai-prompts.md`
    - German legal terms → `docs/08-glossary.md`
 
 **Don't read everything every time.** Read this file + the 1–2 relevant docs.
@@ -62,6 +62,7 @@ When starting a new conversation or task, read in this order:
 ## 🛠️ Technology Stack (canonical — DO NOT introduce alternatives without explicit approval)
 
 ### Mobile
+
 - **React Native + Expo SDK 52+** (managed workflow until truly need bare)
 - **TypeScript** strict mode
 - **Expo Router** (file-based, NOT React Navigation directly)
@@ -71,23 +72,28 @@ When starting a new conversation or task, read in this order:
 - **react-hook-form** + **zod** for forms & validation
 
 ### Backend
+
 - **Supabase** (Frankfurt region, `eu-central-1`)
 - **PostgreSQL** with Row-Level Security
 - **Supabase Auth** (email + Apple + Google)
 - **Edge Functions** for server-side AI calls (Deno runtime)
 
 ### AI / LLM
-- **Anthropic Claude** — primary LLM for legal letters
-- **Claude Vision** OR **OpenAI GPT-4 Vision** — receipt OCR
+
+- **OpenAI GPT-4o** — primary LLM for legal letter generation
+- **OpenAI GPT-4o-mini** — receipt OCR (vision)
 - All AI calls happen in Supabase Edge Functions, NEVER from client
 
 ### Subscriptions
+
 - **RevenueCat SDK** for iOS + Android in-app purchases
 
 ### Web (landing)
+
 - **Next.js 15+** on **Vercel**
 
 ### Tools
+
 - **pnpm** (NOT npm, NOT yarn)
 - **Turborepo** for monorepo
 
@@ -158,6 +164,7 @@ See `docs/02-tech-stack.md` for full list with versions and rationale.
 ## 🚦 Definition of Done (for any feature)
 
 A feature is "done" when:
+
 1. ✅ TypeScript compiles with no errors (`pnpm typecheck`)
 2. ✅ Linter passes (`pnpm lint`)
 3. ✅ Works on iOS simulator AND Android emulator
@@ -172,17 +179,20 @@ A feature is "done" when:
 ## 📞 When in Doubt
 
 If a task is ambiguous:
+
 1. Ask the founder ONE specific question
 2. Propose the simplest interpretation
 3. State assumptions explicitly
 4. Don't write speculative code
 
 If unsure about a legal claim:
+
 1. STOP
 2. Reference `docs/04-legal-compliance.md`
 3. If still unsure, generate a placeholder template that the founder must review
 
 If unsure about UX:
+
 1. Reference existing screens in `apps/mobile/app/`
 2. Match the existing pattern
 3. Don't reinvent components
