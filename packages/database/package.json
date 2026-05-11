@@ -1,0 +1,7 @@
+{
+  "name": "@receipto/database",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./src/database.types.ts",
+  "types": "./src/database.types.ts"
+}
