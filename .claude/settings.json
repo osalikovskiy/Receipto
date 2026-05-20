@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm --filter * typecheck*)",
+      "Bash(pnpm --filter * lint*)",
+      "Bash(pnpm typecheck*)",
+      "Bash(pnpm lint*)"
+    ]
+  }
+}
