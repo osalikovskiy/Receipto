@@ -4,5 +4,5 @@ pre-commit:
     typecheck:
       run: pnpm typecheck
     format:
-      glob: "*.{ts,tsx,js,jsx,json,md}"
+      glob: '*.{ts,tsx,js,jsx,json,md}'
       run: pnpm exec prettier --check {staged_files}
