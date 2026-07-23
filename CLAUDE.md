@@ -2,7 +2,7 @@
 
 > **You are Claude Code working on Receipto, an AI-powered consumer rights app for Germany.**
 > This file is your primary context. Always read it first.
-> When the task touches a specific area, also read the matching `docs/*.md` file.
+> Internal planning docs (`docs/*.md`) are kept locally and are not part of this public repo.
 
 ---
 
@@ -29,15 +29,7 @@ Receipto helps German consumers reclaim money they're legally entitled to — fr
 When starting a new conversation or task, read in this order:
 
 1. **This file (`CLAUDE.md`)** — always
-2. **`docs/07-roadmap.md`** — to understand current phase
-3. **Task-specific docs** based on the task:
-   - Product / feature questions → `docs/01-product.md`
-   - Tech / dependency questions → `docs/02-tech-stack.md`
-   - Database / API / flows → `docs/03-architecture.md`
-   - **ANYTHING legal-related** → `docs/04-legal-compliance.md` (mandatory)
-   - Code style / patterns → `docs/05-coding-standards.md`
-   - AI prompts / OpenAI calls → `docs/06-ai-prompts.md`
-   - German legal terms → `docs/08-glossary.md`
+2. **Local `docs/*.md`** (if present on this machine) — roadmap, product scope, architecture, legal compliance, coding standards, AI prompts, glossary. These are internal planning docs and are not checked into the public repo.
 
 **Don't read everything every time.** Read this file + the 1–2 relevant docs.
 
