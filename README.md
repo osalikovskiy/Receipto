@@ -24,14 +24,12 @@
 | Payments | RevenueCat                                                                        |
 | Monorepo | pnpm workspaces + Turborepo, TypeScript strict mode                               |
 
-Full rationale for each choice: [`docs/02-tech-stack.md`](docs/02-tech-stack.md).
-
 ## Architecture highlights
 
-- **Nothing sensitive touches the client.** All OpenAI calls, all writes that need the service-role key, and all letter generation happen in Supabase Edge Functions (Deno) — never in the mobile/web app. See [`docs/03-architecture.md`](docs/03-architecture.md).
+- **Nothing sensitive touches the client.** All OpenAI calls, all writes that need the service-role key, and all letter generation happen in Supabase Edge Functions (Deno) — never in the mobile/web app.
 - **Row-Level Security everywhere.** Every table is scoped to `auth.uid()`; there is no table a user can read across accounts.
 - **GDPR by construction, not bolted on.** EU-hosted (Frankfurt), account deletion and data export are first-class Edge Functions ([`supabase/functions/delete-account`](supabase/functions/delete-account), [`supabase/functions/export-data`](supabase/functions/export-data)), not manual support tickets.
-- **Legal accuracy is enforced in code, not just prompted for.** [`supabase/functions/_shared/letter-validators.ts`](supabase/functions/_shared/letter-validators.ts) checks generated letters for cited paragraphs, dates, and amounts before they're returned to the user — see [`docs/06-ai-prompts.md`](docs/06-ai-prompts.md) for the full prompt-engineering approach.
+- **Legal accuracy is enforced in code, not just prompted for.** [`supabase/functions/_shared/letter-validators.ts`](supabase/functions/_shared/letter-validators.ts) checks generated letters for cited paragraphs, dates, and amounts before they're returned to the user.
 
 ## Project structure
 
@@ -45,22 +43,10 @@ receipto/
 │   ├── shared/               # Shared TypeScript types
 │   ├── legal-templates/      # German legal letter templates (BGB)
 │   └── ai-prompts/           # Versioned AI prompt library
-├── supabase/
-│   ├── migrations/           # SQL migrations
-│   └── functions/            # Edge functions (Deno)
-└── docs/                     # Architecture, legal reference, coding standards
+└── supabase/
+    ├── migrations/           # SQL migrations
+    └── functions/            # Edge functions (Deno)
 ```
-
-## Docs
-
-- [`docs/01-product.md`](docs/01-product.md) — product scope
-- [`docs/02-tech-stack.md`](docs/02-tech-stack.md) — stack + rationale
-- [`docs/03-architecture.md`](docs/03-architecture.md) — data model, request flows
-- [`docs/04-legal-compliance.md`](docs/04-legal-compliance.md) — BGB references used in letter generation
-- [`docs/05-coding-standards.md`](docs/05-coding-standards.md) — code style/patterns
-- [`docs/06-ai-prompts.md`](docs/06-ai-prompts.md) — prompt design for AI letter generation
-- [`docs/07-roadmap.md`](docs/07-roadmap.md) — build phases
-- [`docs/08-glossary.md`](docs/08-glossary.md) — German legal terms
 
 ## Running locally
 
